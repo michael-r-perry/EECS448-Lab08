@@ -1,0 +1,74 @@
+body {
+    background-color: #151515;
+}
+
+div.namePhoto {
+    display: flex;
+    justify-content: center;
+}
+
+div.photo {
+    width: 500px;
+    height: 353px;
+    background-image: url(../img/theBrain.gif);
+    background-repeat: no-repeat;
+}
+
+div.bio {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div.favoriteLinks {
+    margin:50px;
+    justify-content: center;
+}
+
+a{
+    margin-top: 30px;
+    align-self:center;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    font-weight: 600;
+    background-color: #b4a5a5;
+    color: #301B3F;
+    font-size: 18pt;
+    text-align: center;
+    transition: all 0.4s ease;
+    border-radius: 15px;
+}
+
+a:hover{
+    background: #301B3F;
+    color: #b4a5a5;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60pt;
+    text-align: center;
+    color:white;
+    background-color: rgb(21,21,21,0.2);
+}
+
+img {
+    padding: 10px;
+    width: 30%;
+    height: 30%;
+}
+
+p
+{
+    border: 3px solid rgb(60,65,92);
+    padding: 1em;
+    background-color: #B4A5A5;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+div.embeddedYoutube {
+    display: flex;
+    justify-content: center;
+}
